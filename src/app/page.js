@@ -1,4 +1,5 @@
 import AboutSection from './components/AboutSection'
+import ProjectSection from './components/ProjectSection'
 import { HeroSection } from './components/HeroSection'
 import Navbar from './components/Navbar'
 
@@ -9,6 +10,7 @@ export default function Home() {
         <Navbar />
         <HeroSection />
         <AboutSection />
+        <ProjectSection />
      </div>
     </main>
   )

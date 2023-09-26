@@ -15,11 +15,11 @@ export const HeroSection = () => {
 						sequence={[
 							'Jesús Suárez',
 							1000,
-							'Backend Developer',
+							'Backend Developer in youtube MIN 1:11:00',
 							1000,
-							'Web Developer',
+							'Frontend Developer',
 							1000,
-							'FullStack Developer ',
+							'FullStack Developer',
 							1000
 						]}
 						wrapper="span"
@@ -28,12 +28,10 @@ export const HeroSection = () => {
 					/>
 				  </h1>
 				<p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit.
-				Accusamus eligendi similique ut quam eveniet. Natus aspernatur inventore assumenda hic porro autem quam?
-				Asperiores quas sit ipsum nisi est magni dolore.
+					In this world every thing is possible, you just need to believe in yourself and work hard to achieve your goals.
 				  </p>
 				  <div>
-					  <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-cyan-500 via-blue-500 to-indigo-500 hover:bg-slate-200 text-white'>
+					  <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-cyan-500 via-blue-500 to-indigo-500 hover:bg-slate-600 text-white'>
 						  Hire Me
 					  </button>
 					  <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br  from-cyan-500 via-blue-500 to-indigo-500 hover:bg-slate-800 text-white mt-3'>

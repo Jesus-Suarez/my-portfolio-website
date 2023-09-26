@@ -1,7 +1,7 @@
 'use client'
-import React, {useTransition, useState} from 'react'
-import Image from 'next/image'
-import TabButton from './TabButton'
+import Image from 'next/image';
+import React, { useState, useTransition } from 'react';
+import TabButton from './TabButton';
 
 const TAB_DATA = [
 	{
@@ -27,7 +27,8 @@ const TAB_DATA = [
 				<li>Universidad Tecnológica Del Valle de Toluca</li>
 			</ul>
 		)
-	}, {
+	},
+	{
 		id: "experience",
 		title: "experience",
 		content: (
@@ -86,7 +87,7 @@ const AboutSection = () => {
 							 active={tab === "skills"}
 						 >
 							 {" "}
-							 Skills 
+							 Skills
 						 </TabButton>
 						 <TabButton
 							 selectTab={ () => handleTabChange("education") }
